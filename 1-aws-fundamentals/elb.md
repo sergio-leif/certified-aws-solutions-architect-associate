@@ -71,6 +71,7 @@
 ### Application Load Balancers (ALB)
 
 - They are a layer 7 type load balancers (only HTTP or HTTPS)
+- Ideal load balancer for **Content-Based routing**
 - They allow load balancing to multiple HTTP applications across multiple machines (target groups). Also they allow to load balance to multiple applications on the same EC2 instance (useful in case of containers)
 - They have support for HTTP2 and WebSockets.
 - They support redirects, example for HTTP to HTTPS
