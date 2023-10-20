@@ -18,6 +18,19 @@ Statements consists of:
 - Resource: list of resources to which the actions applied to
 - Condition: conditions for when this policy is in effect (optional)
 
+## IAM Roles and Policies
+
+- To give permissions to AWS services we use Roles
+- Policies can be managed by AWS or custom managed by users
+- AWS provides a huge set of managed policies, if these are not good enough the users can create their own
+- Inline policies: policies that are added inline to a role, this make them impossible to add them to another role
+- AWS Policy generator: https://awspolicygen.s3.amazonaws.com/policygen.html
+- AWS Policy simulator: https://policysim.aws.amazon.com/
+
+## IAM Security tools
+
+- **IAM Credentials Report (account-level)**: A report that list all your account's users and the status of their various credentials
+- **IAM Access Advisor (user-level)**: Shows the service permissions granted to a user and when those services were last accessed. This can be used to revise the policies.
 
 ## AWS STS - Security Token Service
 
