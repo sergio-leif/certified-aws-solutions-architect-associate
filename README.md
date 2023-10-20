@@ -40,7 +40,7 @@
     - [AWS Cognito](3-aws-serverless/cognito.md)
     - [AWS SAM - Serverless Application Model](3-aws-serverless/sam.md)
 4. Security and Disaster Recovery
-    - [Advanced IAM](4-aws-security-and-disaster-recovery/advanced-iam.md)
+    - [IAM](4-aws-security-and-disaster-recovery/iam.md)
     - [Encryption](4-aws-security-and-disaster-recovery/encryption.md)
     - [SSM Parameter Store](4-aws-security-and-disaster-recovery/ssm.md)
     - [Secrets Manager](4-aws-security-and-disaster-recovery/secrets-manager.md)
