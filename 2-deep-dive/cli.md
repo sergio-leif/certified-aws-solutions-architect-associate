@@ -31,14 +31,6 @@
 - IAM Roles can come with a policy authorizing exactly what the EC2 instance should be able to do
 - This is the best practice on AWS and should be done every time!
 
-## IAM Roles and Policies
-
-- Policies can be managed by AWS or custom managed by users
-- AWS provides a huge set of managed policies, if these are not good enough the users can create their own
-- Inline policies: policies that are added inline to a role, this make them impossible to add them to another role
-- AWS Policy generator: https://awspolicygen.s3.amazonaws.com/policygen.html
-- AWS Policy simulator: https://policysim.aws.amazon.com/
-
 ## EC2 Instance Metadata
 
 - It allows EC2 instance to "lear about themselves" without using an IAM Role
